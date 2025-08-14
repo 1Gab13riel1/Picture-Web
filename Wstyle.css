@@ -108,16 +108,22 @@ text{
     border: 1px solid #909090;
 }
 
-figure {
-  border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
+table{
+    margin: auto;
+}
+td{
+    padding-top: 20px;
+    padding: 40px;
 }
 
-figcaption {
-  background-color: #90a91d;
-  color: rgb(227, 34, 34);
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
+caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: right;
 }
+
+td img{
+
+}
+
+/* float : left, float:right*/
