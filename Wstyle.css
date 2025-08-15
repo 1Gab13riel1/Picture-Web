@@ -109,21 +109,33 @@ text{
 }
 
 table{
-    margin: auto;
+    width:100%;
+    margin-left:0px;
+    margin-right: 0px;
 }
-td{
+.left{
     padding-top: 20px;
-    padding: 40px;
+    padding-left: 0px;
+    text-align: left;
 }
-
-caption{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+.right{
+    padding-top: 20px;
+    padding-right: 0px;
     text-align: right;
 }
 
-td img{
+.leftText{
+    padding-right: 0px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
 
+.rightText{
+    padding-right: 0px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
 
 /* float : left, float:right*/
