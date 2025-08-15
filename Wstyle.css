@@ -58,8 +58,8 @@ footer{
 text{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-    font-size: 20px;
+    color: green;
+    font-size: 50px;
     padding-top: 5px;
 }
 
@@ -69,6 +69,13 @@ text{
     width: 100%;
     text-align: center;
     padding-left: 5px;
+}
+
+.textCon{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
 }
 
 .content h3{
@@ -85,7 +92,7 @@ text{
 .content form{
     width: fit-content;
     margin: auto;
-    padding: 5px;
+    /*padding: 5px;*/
     text-align: left;
 }
 
@@ -95,8 +102,8 @@ text{
 
 .content label{
     display: inline-block;
-    padding-left: 5px;
-    width: 80px;
+    /*padding-left: 5px;*/
+    width: 90px;
     vertical-align: top;
 }
 
@@ -106,6 +113,17 @@ text{
     padding-right: 5px;
     margin-bottom: 5px;
     border: 1px solid #909090;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.content .btn-submit{
+    width:150px;
+}
+
+.conSpace{
+    padding-top: 20px;
 }
 
 table{
@@ -138,4 +156,15 @@ table{
     color: black;
 }
 
+.leftSpace{
+    padding-top: 60px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.rightSpace{
+    padding-top: 60px;
+    padding-right: 0px;
+    text-align: right;
+}
 /* float : left, float:right*/
